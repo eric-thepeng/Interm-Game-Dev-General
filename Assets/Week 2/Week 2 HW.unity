@@ -922,6 +922,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1058586396}
   - component: {fileID: 1058586397}
+  - component: {fileID: 1058586398}
   m_Layer: 0
   m_Name: Scaler
   m_TagString: Untagged
@@ -994,6 +995,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1058586398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058586395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a9312e1aab7c1438c7bffc43b5d81a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1202971406
 GameObject:
   m_ObjectHideFlags: 0
@@ -1235,6 +1248,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1336833359}
   - component: {fileID: 1336833360}
+  - component: {fileID: 1336833362}
+  - component: {fileID: 1336833361}
   m_Layer: 0
   m_Name: BackMountains
   m_TagString: Untagged
@@ -1307,6 +1322,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!50 &1336833361
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336833358}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 6
+--- !u!114 &1336833362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336833358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93268b80bb352a14ca9ac4dd1c4dde58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerRb: {fileID: 405575901}
 --- !u!1 &1346193971
 GameObject:
   m_ObjectHideFlags: 0
