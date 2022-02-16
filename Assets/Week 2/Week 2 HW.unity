@@ -1356,6 +1356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerRb: {fileID: 405575901}
+  relativeSpeed: 0.1
 --- !u!1 &1346193971
 GameObject:
   m_ObjectHideFlags: 0
